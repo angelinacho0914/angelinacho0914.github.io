@@ -13,69 +13,20 @@
 
       .main {
         background-color: #800000;
-        margin: 10 auto;
-        border: 10px solid #808080;
+        border: 10px inset #808080;
       }
 
       a {
-        text-align: center;
+        display: table-cell;
         color: #FFFFFF;
-        margin: 20 px auto;
         border-radius: 5px;
-        box-shadow: 5px 5px #888;
+        box-shadow: 3px 3px #888;
         padding: 20px;
-        margin: 50 px;
       }
 
-      h1, h2 {
+      h2, h1 {
         text-align: center;
         color: #FFFFFF;
-      }
-
-      h3 {
-        color: #FFFFFF;
-        padding-left: 30px;
-      }
-
-      .nav, a{
-        display: table-cell;
-        width: 200 px;
-        height: 50 px;
-        text-align: center;
-        float: none;
-      }
-
-      .nav {
-        padding-left: 120px;
-      }
-
-      .email {
-        padding-left: 510px;
-        padding-top: 50px;
-        color: #FFFFFF;
-        display: table-cell;
-      }
-
-      .text {
-        color: #F3E3DF;
-      }
-
-      p.text {
-        padding-left: 50px;
-      }
-
-      a.icons {
-
-      }
-
-      .fa-brands {
-        font-size: 50 pt;
-        color: 0017FF;
-      }
-
-      a:hover {
-        background-color: #808080;
-        border-radius: 20px;
       }
 
       img {
@@ -87,6 +38,52 @@
         text-align: center;
       }
 
+      .nav {
+        display: table-cell;
+        padding-left: 120px;
+      }
+
+      a:hover {
+        background-color: #888;
+        border-radius: 20px;
+      }
+
+      .email {
+        padding-top: 30px;
+        padding-left: 480px;
+        color: #FFFFFF;
+        font-size: 150%;
+        display: table-cell;
+      }
+
+      .icons {
+        display: table-cell;
+        padding-left: 350px;
+      }
+
+      .fa-brands {
+        color: orange;
+        font-size: 36pt;
+      }
+
+      .fa-brands:hover {
+        color: yellow;
+      }
+
+      h3 {
+        margin-left: 20px;
+        color: #FFFFFF;
+        font-size: 130%;
+      }
+
+      .text {
+        color: #FFFFFF;
+      }
+
+      p {
+        color: #FFFFFF;
+        padding-left: 40px;
+      }
     </style>
   </head>
 
@@ -96,7 +93,7 @@
       <div class="list">
         <ul>
           <li class="nav"></li><a href="index.html">Home Page</a>
-          <li class="nav"></li><a href="#">Link</a>
+          <li class="nav"></li><a href="interests.html">Interests</a>
           <li class="nav"></li><a href="#">Link</a>
           <li class="nav"></li><a href="#">Link</a>
           <li class="nav"></li><a href="#">Link</a>
@@ -113,8 +110,8 @@
       <h1>Angelina Cho</h1>
       <h2>Hometown: Taiwan & Shanghai</h2>
 
-      <a class="icons" href="https://www.linkedin.com/in/angelina-cho-b52457204/"></a><i class="fa-brands fa-linkedin"></i>
-      <a class="icons" href="https://www.instagram.com/angelinacho.0914/"></a><i class="fa-brands fa-instagram"></i>
+      <li class="icons"></li><a href="https://www.linkedin.com/in/angelina-cho-b52457204/"><i class="fa-brands fa-linkedin"></i></a>
+      <li class="icons"></li><a href="https://www.instagram.com/angelinacho.0914/"><i class="fa-brands fa-instagram"></i></a>
 
       <h3>Education</h3>
         <p class="text">Babson College</p>
