@@ -4,15 +4,12 @@ date: 2021-07-16
 lastmod: 2021-07-16
 tags: ["psychology","philosophy"]
 author: ["Angelina Cho"]
-description: "This paper studies the pulmonary efficiency of sausage dogs. Published in the Journal of Canine Science, 2004." 
-summary: "This paper studies the pulmonary efficiency of sausage dogs through several experiments." 
+description: "This paper focuses on Chapter Two of Civilization and Its Discontents, where Freud introduces the pleasure and reality principles as mechanisms that govern human happiness and suffering." 
+summary: "This paper studies the pleasure and reality principles as mechanisms that govern human happiness and suffering." 
 cover:
-    image: "paper2.png"
-    alt: "Dimensions of a sausage dog"
+    image: "sigmund_freud.jpg"
+    alt: "Sigmund Freud"
     relative: false
-editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Canine Science"
 
 ---
 
@@ -21,42 +18,15 @@ editPost:
 ##### Download
 
 + [Paper](freud_paper.pdf)
-+ [Online appendix](appendix2.pdf)
-+ [Code and data](https://github.com/pmichaillat/wunk)
 
 ---
 
 ##### Abstract
 
-This paper studies the pulmonary efficiency of sausage dogs. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur: $\sin(\theta) = x^2 - \exp(1+\chi)$. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor $\zeta$ incididunt ut labore et dolore magna aliqua: $p(x) = \int \cos(\zeta) d\zeta - \theta$. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
----
-
-##### Figure 2: Dimensions of a sausage dog
-
-![](paper2.png)
+Sigmund Freud’s *Civilization and Its Discontents* explores the intricate relationship between civilization and individual suffering, emphasizing the roles of pleasure, unpleasure, and sensibility. This paper focuses on Chapter Two of the text, where Freud introduces the pleasure and reality principles as mechanisms that govern human happiness and suffering. Freud highlights three methods—powerful deflections, substitutive satisfactions, and intoxicating substances—that alter our sensibility toward misery and examines their varying efficacy in mitigating distress. He argues that sensation underpins all suffering and asserts that the absence or alteration of sensation could render misery nonexistent. Furthermore, Freud investigates the fleeting nature of happiness, linking it to intense, momentary sensations such as sexual love and the spontaneous enjoyment of beauty. This analysis delves into how sensibility impacts our perception of pleasure and pain, offering insights into human behavior and proposing ways to navigate the inevitable suffering imposed by civilization. Ultimately, Freud’s work underscores the complex interplay between societal structures and the human psyche, suggesting that altering our sensibility might reshape our experience of both joy and despair.
 
 ---
 
 ##### Citation
 
-Prinzel, Florianus, and Moritz-Maria von Igelfeld. 2004. "The Finer Points of Sausage Dogs." *Journal of Canine Science* 43 (2): 89–109. http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs.
-
-```BibTeX
-@article{PI04,
-author = {Florianus Prinzel and Moritz-Maria von Igelfeld},
-year = {2004},
-title ={The Finer Points of Sausage Dogs},
-journal = {Journal of Canine Science},
-volume = {43},
-number = {2},
-pages = {89--109},
-url = {http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs}}
-```
-
----
-
-##### Related material
-
-+ [Presentation slides](presentation2.pdf)
-+ [Wikipedia entry](https://en.wikipedia.org/wiki/The_Finer_Points_of_Sausage_Dogs)
+Freud, S. (1961). Civilization and its discontents (J. Strachey, Trans.). W.W. Norton & Company. (Original work published 1930)
