@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Simple Battleship Simulation | Angelina Cho</title>
 <meta name="keywords" content="pygame, python">
 <meta name="description" content="This project is for OIM3640 at Babson College, taught by Professor Zhi Li.">
 <meta name="author" content="Angelina Cho,&thinsp;K Yabe">
-<link rel="canonical" href="http://localhost:1313/projects/project1/">
+<link rel="canonical" href="https://angelinacho0914.github.io/projects/project1/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.e690afcd5c523330d5c8b4d746eb158361600a015e99518d4d246a6ccab0cc19.css" integrity="sha256-5pCvzVxSMzDVyLTXRusVg2FgCgFemVGNTSRqbMqwzBk=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="icon" href="https://angelinacho0914.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://angelinacho0914.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://angelinacho0914.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://angelinacho0914.github.io/apple-touch-icon.png">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/projects/project1/">
+<link rel="alternate" hreflang="en" href="https://angelinacho0914.github.io/projects/project1/">
 <noscript>
     <style>
         #theme-toggle,
@@ -29,13 +29,13 @@
 </noscript><meta property="og:title" content="Simple Battleship Simulation" />
 <meta property="og:description" content="This project is for OIM3640 at Babson College, taught by Professor Zhi Li." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/projects/project1/" />
-<meta property="og:image" content="http://localhost:1313/battleship.png" /><meta property="article:section" content="projects" />
+<meta property="og:url" content="https://angelinacho0914.github.io/projects/project1/" />
+<meta property="og:image" content="https://angelinacho0914.github.io/battleship.png" /><meta property="article:section" content="projects" />
 <meta property="article:published_time" content="2022-05-01T00:00:00+00:00" />
 <meta property="article:modified_time" content="2022-05-01T00:00:00+00:00" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="http://localhost:1313/battleship.png" />
+<meta name="twitter:image" content="https://angelinacho0914.github.io/battleship.png" />
 <meta name="twitter:title" content="Simple Battleship Simulation"/>
 <meta name="twitter:description" content="This project is for OIM3640 at Babson College, taught by Professor Zhi Li."/>
 
@@ -49,13 +49,13 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Projects",
-      "item": "http://localhost:1313/projects/"
+      "item": "https://angelinacho0914.github.io/projects/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "Simple Battleship Simulation",
-      "item": "http://localhost:1313/projects/project1/"
+      "item": "https://angelinacho0914.github.io/projects/project1/"
     }
   ]
 }
@@ -73,7 +73,7 @@
   "articleBody": "Introduction This project is for OIM3640 at Babson College, taught by Professor Zhi Li.\nAs our team members comtemplated potential ideas for our project, we have come to a conclusion to work on one that will help us review our learning from our class and require a decent amount of self-learning. We came up with this idea of battleship game because it challenges us to incorporate significant concepts from object-oriented programming. We figured that this project will help us start with the minimum requirement and develop further if we have great ideas.\nBasic Specs Our battleship is deployed on 10 x 10 matrices against CPU. On the screen, a player will see 3 matrices: his own ship positions in the left-bottom one, his attack on the left-top one, and CPU’s attack on the right-bottom one. For a shot without hit, a pink point will show up on the grid. Once you hit a part of a ship’s body, the point will show up as orange, and the orange points will turn to red once the player completely destroys the ship.\nTechnical Architecture (back-end) Our battleship game consists of 2 files: battleship.py and engine.py. battleship.py takes the role of front-end, returning the user interface. In contract, engine.py powers battleship.py from the back-end, supporting the implementation using object-oriented programming.\nengine.py is made of 3 classes of objects: Ship, Player, and Game. Each class has initial attributes, describing the functions of each class. For example, Ship class is initialized with the a beginning position of a ship, and afterwards spreads in one direction so that a ship stays consistent. Player is initialized as placing those ships onto the grid, and Game works as a CPU playing the player.\nTechnical Architecture (front-end) Explaining the functionality of battleship.py\nOur battleship.py makes use of global variables so as to fix the underlying game scaffolding intact throughout different functions. Functions are used to draw grids, player’s ship distribution, and CPU’s ship distrition, both of which are randomly chosen. Afterwards, the overall file will track user interaction throught a boolean object “animating.” Using while loop, the file will call upon pygame to communicate user responses and CPU’s attack while “animating” is true. As soon as “animating” becomes false, the while loop quits pygame and shows the victorious message for a designated player.\nInstructions To get started, download the codes from the related material below. Using “pip install” (i.g. pip install –pygame) in your terminal or command window, please install numpy, matlibplot, and pygame onto your device.\nRelated material Download codes here README (GitHub) ",
   "wordCount" : "425",
   "inLanguage": "en",
-  "image":"http://localhost:1313/battleship.png","datePublished": "2022-05-01T00:00:00Z",
+  "image":"https://angelinacho0914.github.io/battleship.png","datePublished": "2022-05-01T00:00:00Z",
   "dateModified": "2022-05-01T00:00:00Z",
   "author":[{
     "@type": "Person",
@@ -84,14 +84,14 @@
   }],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/projects/project1/"
+    "@id": "https://angelinacho0914.github.io/projects/project1/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Angelina Cho",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:1313/favicon.ico"
+      "url": "https://angelinacho0914.github.io/favicon.ico"
     }
   }
 }
@@ -132,8 +132,8 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Angelina Cho">
-                <img src="http://localhost:1313/favicon.ico" alt="" aria-label="logo"
+            <a href="https://angelinacho0914.github.io/" accesskey="h" title="Angelina Cho">
+                <img src="https://angelinacho0914.github.io/favicon.ico" alt="" aria-label="logo"
                     height="18"
                     width="18">Angelina Cho</a>
             <div class="logo-switches">
@@ -141,17 +141,17 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/papers/" title="Papers">
+                <a href="https://angelinacho0914.github.io/papers/" title="Papers">
                     <span>Papers</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/courses/" title="Courses">
+                <a href="https://angelinacho0914.github.io/courses/" title="Courses">
                     <span>Courses</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/projects/" title="Projects">
+                <a href="https://angelinacho0914.github.io/projects/" title="Projects">
                     <span>Projects</span>
                 </a>
             </li>
@@ -199,15 +199,15 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/pygame/">Pygame</a></li>
-      <li><a href="http://localhost:1313/tags/python/">Python</a></li>
+      <li><a href="https://angelinacho0914.github.io/tags/pygame/">Pygame</a></li>
+      <li><a href="https://angelinacho0914.github.io/tags/python/">Python</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2025 <a href="http://localhost:1313/">Angelina Cho</a></span> ·     
+    <span>&copy; 2025 <a href="https://angelinacho0914.github.io/">Angelina Cho</a></span> ·     
     <span>
     Powered by 
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
