@@ -1,5 +1,5 @@
 baseURL: "https://angelinacho0914.github.io/" 
-title: Moritz-Maria von Igelfeld
+title: Angelina Cho
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -10,25 +10,28 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
         - name: Papers
           url: papers/
           weight: 2
         - name: Courses
           url: courses/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+        - name: Projects
+          url: projects/
+          weight: 4
+        # - name: Data
+        #   url: data/
+        #   weight: 4 
+        # - name: Books
+        #   url: books/
+        #   weight: 5 
+        # - name: Blog
+        #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+        #   weight: 6
 
 params:
-    description: "I am a Professor of Philology at the Institute of Romance Philology in Regensburg, Germany. My research focuses mostly on Portuguese irregular verbs."
-    author: Moritz-Maria von Igelfeld
+    description: "I am a student in Master's of Science in Business Analytics (MSBA) at Carnegie Mellon University, Tepper School of Business. I'm skilled in SQL, R, and Python."
+    author: Angelina Cho
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -52,9 +55,9 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: "picture.jpeg"
+          title: Angelina Cho
+          subtitle: "I am a student in Master's of Science in Business Analytics (MSBA) at Carnegie Mellon University, Tepper School of Business. I'm skilled in SQL, R, and Python. I am currently in the job market."
+          imageUrl: "profile.jpg"
           imageWidth: 160
           imageHeight: 160
           buttons:
@@ -62,38 +65,40 @@ params:
               url: papers/
             - name: Courses
               url: courses/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            - name: Projects
+              url: projects/
+            # - name: Data
+            #   url: data/
+            # - name: Books
+            #   url: books/
+            # - name: Tags
+            #   url: tags/
+            # - name: Archive
+            #   url: archive/
+            # - name: Blog
+            #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
     socialIcons:
-        - name: CV
-          url: cv.pdf
+        - name: Resume
+          url: resume.pdf
         - name: Email
-          url: mailto:moritz.maria.von.igelfeld@gmail.com
+          url: mailto:acho2@andrew.cmu.edu
         - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: https://cmu.zoom.us/j/6790351280
+        # - name: Location
+        #   url: location/
+        # - name: Office Hours
+        #   url: officehours/
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/acho2/
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@alexandermccallsmithoffici9000
-        - name: Twitter
-          url: https://twitter.com/McCallSmith
+          url: https://github.com/angelinacho0914
+        - name: Medium
+          url: https://medium.com/@ycho5
+        # - name: YouTube
+        #   url: https://www.youtube.com/@alexandermccallsmithoffici9000
+        # - name: Twitter
+        #   url: https://twitter.com/McCallSmith
 
     assets:
         disableScrollBarStyle: true
@@ -101,7 +106,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Angelina Cho"
       icon: favicon.ico
       iconHeight: 18
 
