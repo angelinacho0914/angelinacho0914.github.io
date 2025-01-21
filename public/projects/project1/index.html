@@ -5,10 +5,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Unusual Uses For Olive Oil | Angelina Cho</title>
-<meta name="keywords" content="philology, oleic science, history of oil, Mediterranean world">
-<meta name="description" content="This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013.">
-<meta name="author" content="Detlev Amadeus Unterholzer,&thinsp;Moritz-Maria von Igelfeld">
+<title>Simple Battleship Simulation | Angelina Cho</title>
+<meta name="keywords" content="pygame, python">
+<meta name="description" content="This project is for OIM3640 at Babson College, taught by Professor Zhi Li.">
+<meta name="author" content="Angelina Cho,&thinsp;K Yabe">
 <link rel="canonical" href="http://localhost:1313/projects/project1/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.e690afcd5c523330d5c8b4d746eb158361600a015e99518d4d246a6ccab0cc19.css" integrity="sha256-5pCvzVxSMzDVyLTXRusVg2FgCgFemVGNTSRqbMqwzBk=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
@@ -26,18 +26,18 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="Unusual Uses For Olive Oil" />
-<meta property="og:description" content="This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013." />
+</noscript><meta property="og:title" content="Simple Battleship Simulation" />
+<meta property="og:description" content="This project is for OIM3640 at Babson College, taught by Professor Zhi Li." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/projects/project1/" />
-<meta property="og:image" content="http://localhost:1313/paper1.png" /><meta property="article:section" content="projects" />
-<meta property="article:published_time" content="2013-01-15T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-07-12T00:00:00+00:00" />
+<meta property="og:image" content="http://localhost:1313/battleship.png" /><meta property="article:section" content="projects" />
+<meta property="article:published_time" content="2022-05-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-05-01T00:00:00+00:00" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="http://localhost:1313/paper1.png" />
-<meta name="twitter:title" content="Unusual Uses For Olive Oil"/>
-<meta name="twitter:description" content="This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013."/>
+<meta name="twitter:image" content="http://localhost:1313/battleship.png" />
+<meta name="twitter:title" content="Simple Battleship Simulation"/>
+<meta name="twitter:description" content="This project is for OIM3640 at Babson College, taught by Professor Zhi Li."/>
 
 
 <script type="application/ld+json">
@@ -54,7 +54,7 @@
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "Unusual Uses For Olive Oil",
+      "name": "Simple Battleship Simulation",
       "item": "http://localhost:1313/projects/project1/"
     }
   ]
@@ -64,23 +64,23 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Unusual Uses For Olive Oil",
-  "name": "Unusual Uses For Olive Oil",
-  "description": "This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013.",
+  "headline": "Simple Battleship Simulation",
+  "name": "Simple Battleship Simulation",
+  "description": "This project is for OIM3640 at Babson College, taught by Professor Zhi Li.",
   "keywords": [
-    "philology", "oleic science", "history of oil", "Mediterranean world"
+    "pygame", "python"
   ],
-  "articleBody": " Download Paper Online appendix Code and data Abstract This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nFigure 6: Some Uses For Olive Oil Citation Unterholzer, Detlev A., and Moritz-Maria von Igelfeld. 2013. “Unusual Uses For Olive Oil.” Journal of Oleic Science 34 (1): 449–489. http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil.\n@article{UI13, author = {Detlev A. Unterholzer and Moritz-Maria von Igelfeld}, year = {2013}, title ={Unusual Uses For Olive Oil}, journal = {Journal of Oleic Science}, volume = {34}, number = {1}, pages = {449--489}, url = {http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil}} Related material Presentation slides Summary of the paper ",
-  "wordCount" : "178",
+  "articleBody": "Introduction This project is for OIM3640 at Babson College, taught by Professor Zhi Li.\nAs our team members comtemplated potential ideas for our project, we have come to a conclusion to work on one that will help us review our learning from our class and require a decent amount of self-learning. We came up with this idea of battleship game because it challenges us to incorporate significant concepts from object-oriented programming. We figured that this project will help us start with the minimum requirement and develop further if we have great ideas.\nBasic Specs Our battleship is deployed on 10 x 10 matrices against CPU. On the screen, a player will see 3 matrices: his own ship positions in the left-bottom one, his attack on the left-top one, and CPU’s attack on the right-bottom one. For a shot without hit, a pink point will show up on the grid. Once you hit a part of a ship’s body, the point will show up as orange, and the orange points will turn to red once the player completely destroys the ship.\nTechnical Architecture (back-end) Our battleship game consists of 2 files: battleship.py and engine.py. battleship.py takes the role of front-end, returning the user interface. In contract, engine.py powers battleship.py from the back-end, supporting the implementation using object-oriented programming.\nengine.py is made of 3 classes of objects: Ship, Player, and Game. Each class has initial attributes, describing the functions of each class. For example, Ship class is initialized with the a beginning position of a ship, and afterwards spreads in one direction so that a ship stays consistent. Player is initialized as placing those ships onto the grid, and Game works as a CPU playing the player.\nTechnical Architecture (front-end) Explaining the functionality of battleship.py\nOur battleship.py makes use of global variables so as to fix the underlying game scaffolding intact throughout different functions. Functions are used to draw grids, player’s ship distribution, and CPU’s ship distrition, both of which are randomly chosen. Afterwards, the overall file will track user interaction throught a boolean object “animating.” Using while loop, the file will call upon pygame to communicate user responses and CPU’s attack while “animating” is true. As soon as “animating” becomes false, the while loop quits pygame and shows the victorious message for a designated player.\nInstructions To get started, download the codes from the related material below. Using “pip install” (i.g. pip install –pygame) in your terminal or command window, please install numpy, matlibplot, and pygame onto your device.\nRelated material Download codes here README (GitHub) ",
+  "wordCount" : "425",
   "inLanguage": "en",
-  "image":"http://localhost:1313/paper1.png","datePublished": "2013-01-15T00:00:00Z",
-  "dateModified": "2024-07-12T00:00:00Z",
+  "image":"http://localhost:1313/battleship.png","datePublished": "2022-05-01T00:00:00Z",
+  "dateModified": "2022-05-01T00:00:00Z",
   "author":[{
     "@type": "Person",
-    "name": "Detlev Amadeus Unterholzer"
+    "name": "Angelina Cho"
   }, {
     "@type": "Person",
-    "name": "Moritz-Maria von Igelfeld"
+    "name": "K Yabe"
   }],
   "mainEntityOfPage": {
     "@type": "WebPage",
@@ -165,53 +165,42 @@
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      Unusual Uses For Olive Oil
+      Simple Battleship Simulation
     </h1>
-    <div class="post-meta"><span title='2013-01-15 00:00:00 +0000 UTC'>January 2013</span>&nbsp;&middot;&nbsp;Detlev Amadeus Unterholzer,&thinsp;Moritz-Maria von Igelfeld&nbsp;&middot;&nbsp;<a href="https://github.com/pmichaillat/hugo-website" rel="noopener noreferrer" target="_blank">Journal of Oleic Science</a>
+    <div class="post-meta"><span title='2022-05-01 00:00:00 +0000 UTC'>May 2022</span>&nbsp;&middot;&nbsp;Angelina Cho,&thinsp;K Yabe
 
 </div>
   </header> 
-  <div class="post-content"><hr>
-<h5 id="download">Download</h5>
-<ul>
-<li><a href="paper1.pdf">Paper</a></li>
-<li><a href="appendix1.pdf">Online appendix</a></li>
-<li><a href="https://github.com/pmichaillat/feru" target="_blank">Code and data</a></li>
-</ul>
+  <div class="post-content"><h5 id="introduction">Introduction</h5>
+<p>This project is for OIM3640 at Babson College, taught by Professor Zhi Li.</p>
+<p>As our team members comtemplated potential ideas for our project, we have come to a conclusion to work on one that will help us review our learning from our class and require a decent amount of self-learning. We came up with this idea of battleship game because it challenges us to incorporate significant concepts from object-oriented programming. We figured that this project will help us start with the minimum requirement and develop further if we have great ideas.</p>
 <hr>
-<h5 id="abstract">Abstract</h5>
-<p>This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h5 id="basic-specs">Basic Specs</h5>
+<p>Our battleship is deployed on 10 x 10 matrices against CPU. On the screen, a player will see 3 matrices: his own ship positions in the left-bottom one, his attack on the left-top one, and CPU&rsquo;s attack on the right-bottom one. For a shot without hit, a pink point will show up on the grid. Once you hit a part of a ship&rsquo;s body, the point will show up as orange, and the orange points will turn to red once the player completely destroys the ship.</p>
 <hr>
-<h5 id="figure-6-some-uses-for-olive-oil">Figure 6: Some Uses For Olive Oil</h5>
-<p><img loading="lazy" src="paper1.png" alt=""  />
-</p>
+<h5 id="technical-architecture-back-end">Technical Architecture (back-end)</h5>
+<p>Our battleship game consists of 2 files: battleship.py and engine.py. battleship.py takes the role of front-end, returning the user interface. In contract, engine.py powers battleship.py from the back-end, supporting the implementation using object-oriented programming.</p>
+<p>engine.py is made of 3 classes of objects: Ship, Player, and Game. Each class has initial attributes, describing the functions of each class. For example, Ship class is initialized with the a beginning position of a ship, and afterwards spreads in one direction so that a ship stays consistent. Player is initialized as placing those ships onto the grid, and Game works as a CPU playing the player.</p>
 <hr>
-<h5 id="citation">Citation</h5>
-<p>Unterholzer, Detlev A., and  Moritz-Maria von Igelfeld. 2013. &ldquo;Unusual Uses For Olive Oil.&rdquo; <em>Journal of Oleic Science</em> 34 (1): 449–489. <a href="http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil" target="_blank">http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil</a>.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-BibTeX" data-lang="BibTeX"><span style="display:flex;"><span><span style="color:#0a0;text-decoration:underline">@article</span>{UI13,
-</span></span><span style="display:flex;"><span><span style="color:#1e90ff">author</span> = <span style="color:#a50">{Detlev A. Unterholzer and Moritz-Maria von Igelfeld}</span>,
-</span></span><span style="display:flex;"><span><span style="color:#1e90ff">year</span> = <span style="color:#a50">{2013}</span>,
-</span></span><span style="display:flex;"><span><span style="color:#1e90ff">title</span> =<span style="color:#a50">{Unusual Uses For Olive Oil}</span>,
-</span></span><span style="display:flex;"><span><span style="color:#1e90ff">journal</span> = <span style="color:#a50">{Journal of Oleic Science}</span>,
-</span></span><span style="display:flex;"><span><span style="color:#1e90ff">volume</span> = <span style="color:#a50">{34}</span>,
-</span></span><span style="display:flex;"><span><span style="color:#1e90ff">number</span> = <span style="color:#a50">{1}</span>,
-</span></span><span style="display:flex;"><span><span style="color:#1e90ff">pages</span> = <span style="color:#a50">{449--489}</span>,
-</span></span><span style="display:flex;"><span><span style="color:#1e90ff">url</span> = <span style="color:#a50">{http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil}</span>}
-</span></span></code></pre></div><hr>
+<h5 id="technical-architecture-front-end">Technical Architecture (front-end)</h5>
+<p>Explaining the functionality of battleship.py</p>
+<p>Our battleship.py makes use of global variables so as to fix the underlying game scaffolding intact throughout different functions. Functions are used to draw grids, player&rsquo;s ship distribution, and CPU&rsquo;s ship distrition, both of which are randomly chosen. Afterwards, the overall file will track user interaction throught a boolean object &ldquo;animating.&rdquo; Using while loop, the file will call upon pygame to communicate user responses and CPU&rsquo;s attack while &ldquo;animating&rdquo; is true. As soon as &ldquo;animating&rdquo; becomes false, the while loop quits pygame and shows the victorious message for a designated player.</p>
+<hr>
+<h5 id="instructions">Instructions</h5>
+<p>To get started, download the codes from the related material below. Using &ldquo;pip install&rdquo; (i.g. pip install &ndash;pygame) in your terminal or command window, please install numpy, matlibplot, and pygame onto your device.</p>
+<hr>
 <h5 id="related-material">Related material</h5>
 <ul>
-<li><a href="presentation1.pdf">Presentation slides</a></li>
-<li><a href="https://www.penguinrandomhouse.com/books/110403/unusual-uses-for-olive-oil-by-alexander-mccall-smith/" target="_blank">Summary of the paper</a></li>
+<li><a href="https://github.com/kyabe314/oim3640_finalproject/tree/main/code" target="_blank">Download codes here</a></li>
+<li><a href="https://github.com/kyabe314/oim3640_finalproject/blob/main/README.md" target="_blank">README (GitHub)</a></li>
 </ul>
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/philology/">Philology</a></li>
-      <li><a href="http://localhost:1313/tags/oleic-science/">Oleic Science</a></li>
-      <li><a href="http://localhost:1313/tags/history-of-oil/">History of Oil</a></li>
-      <li><a href="http://localhost:1313/tags/mediterranean-world/">Mediterranean World</a></li>
+      <li><a href="http://localhost:1313/tags/pygame/">Pygame</a></li>
+      <li><a href="http://localhost:1313/tags/python/">Python</a></li>
     </ul>
   </footer>
 </article>

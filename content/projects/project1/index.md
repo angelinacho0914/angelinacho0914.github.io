@@ -1,62 +1,55 @@
 ---
-title: "Unusual Uses For Olive Oil" 
-date: 2013-01-15
-lastmod: 2024-07-12
-tags: ["philology","oleic science","history of oil","Mediterranean world"]
-author: ["Detlev Amadeus Unterholzer","Moritz-Maria von Igelfeld"]
-description: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013." 
-summary: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil." 
+title: "Simple Battleship Simulation" 
+date: 2022-05-01
+lastmod: 2022-05-01
+tags: ["pygame","python"]
+author: ["Angelina Cho","K Yabe"]
+description: "This project is for OIM3640 at Babson College, taught by Professor Zhi Li." 
+summary: "Althogh it may look like a relatively simple game, battleship game actually requires many important concepts from object-oriented programming such as class, object, abstraction, and encapsulation. Through this project, our team has tried to crystallize our learning throughout this semester into something tangible." 
 cover:
-    image: "paper1.png"
-    alt: "Some Uses For Olive Oil"
+    image: "battleship.png"
+    alt: "Simple Battleship Simulation"
     relative: false
-editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Oleic Science"
 
 ---
 
----
+##### Introduction
 
-##### Download
+This project is for OIM3640 at Babson College, taught by Professor Zhi Li.
 
-+ [Paper](paper1.pdf)
-+ [Online appendix](appendix1.pdf)
-+ [Code and data](https://github.com/pmichaillat/feru)
+As our team members comtemplated potential ideas for our project, we have come to a conclusion to work on one that will help us review our learning from our class and require a decent amount of self-learning. We came up with this idea of battleship game because it challenges us to incorporate significant concepts from object-oriented programming. We figured that this project will help us start with the minimum requirement and develop further if we have great ideas.
 
 ---
 
-##### Abstract
+##### Basic Specs
 
-This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
----
-
-##### Figure 6: Some Uses For Olive Oil
-
-![](paper1.png)
+Our battleship is deployed on 10 x 10 matrices against CPU. On the screen, a player will see 3 matrices: his own ship positions in the left-bottom one, his attack on the left-top one, and CPU's attack on the right-bottom one. For a shot without hit, a pink point will show up on the grid. Once you hit a part of a ship's body, the point will show up as orange, and the orange points will turn to red once the player completely destroys the ship.
 
 ---
 
-##### Citation
+##### Technical Architecture (back-end)
 
-Unterholzer, Detlev A., and  Moritz-Maria von Igelfeld. 2013. "Unusual Uses For Olive Oil." *Journal of Oleic Science* 34 (1): 449–489. http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil.
+Our battleship game consists of 2 files: battleship.py and engine.py. battleship.py takes the role of front-end, returning the user interface. In contract, engine.py powers battleship.py from the back-end, supporting the implementation using object-oriented programming.
 
-```BibTeX
-@article{UI13,
-author = {Detlev A. Unterholzer and Moritz-Maria von Igelfeld},
-year = {2013},
-title ={Unusual Uses For Olive Oil},
-journal = {Journal of Oleic Science},
-volume = {34},
-number = {1},
-pages = {449--489},
-url = {http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil}}
-```
+engine.py is made of 3 classes of objects: Ship, Player, and Game. Each class has initial attributes, describing the functions of each class. For example, Ship class is initialized with the a beginning position of a ship, and afterwards spreads in one direction so that a ship stays consistent. Player is initialized as placing those ships onto the grid, and Game works as a CPU playing the player.
+
+---
+
+##### Technical Architecture (front-end)
+
+Explaining the functionality of battleship.py
+
+Our battleship.py makes use of global variables so as to fix the underlying game scaffolding intact throughout different functions. Functions are used to draw grids, player's ship distribution, and CPU's ship distrition, both of which are randomly chosen. Afterwards, the overall file will track user interaction throught a boolean object "animating." Using while loop, the file will call upon pygame to communicate user responses and CPU's attack while "animating" is true. As soon as "animating" becomes false, the while loop quits pygame and shows the victorious message for a designated player.
+
+---
+
+##### Instructions
+
+To get started, download the codes from the related material below. Using "pip install" (i.g. pip install --pygame) in your terminal or command window, please install numpy, matlibplot, and pygame onto your device.
 
 ---
 
 ##### Related material
 
-+ [Presentation slides](presentation1.pdf)
-+ [Summary of the paper](https://www.penguinrandomhouse.com/books/110403/unusual-uses-for-olive-oil-by-alexander-mccall-smith/)
++ [Download codes here](https://github.com/kyabe314/oim3640_finalproject/tree/main/code)
++ [README (GitHub)](https://github.com/kyabe314/oim3640_finalproject/blob/main/README.md)

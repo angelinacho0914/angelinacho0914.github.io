@@ -23,6 +23,13 @@
       <description>Schedule and location for Professor Dr von Igelfeld&amp;#39;s office hours.</description>
     </item>
     <item>
+      <title>Simple Battleship Simulation</title>
+      <link>http://localhost:1313/projects/project1/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/project1/</guid>
+      <description>This project is for OIM3640 at Babson College, taught by Professor Zhi Li.</description>
+    </item>
+    <item>
       <title>Your Inner Hedgehog</title>
       <link>http://localhost:1313/papers/paper3/</link>
       <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
@@ -41,13 +48,6 @@
       <link>http://localhost:1313/papers/paper1/</link>
       <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/papers/paper1/</guid>
-      <description>This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013.</description>
-    </item>
-    <item>
-      <title>Unusual Uses For Olive Oil</title>
-      <link>http://localhost:1313/projects/project1/</link>
-      <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/project1/</guid>
       <description>This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013.</description>
     </item>
     <item>
