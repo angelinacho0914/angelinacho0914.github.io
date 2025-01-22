@@ -13,7 +13,7 @@ menu:
         - name: Papers
           url: papers/
           weight: 2
-        - name: Courses
+        - name: Coursework
           url: courses/
           weight: 3
         - name: Projects
@@ -63,7 +63,7 @@ params:
           buttons:
             - name: Papers
               url: papers/
-            - name: Courses
+            - name: Coursework
               url: courses/
             - name: Projects
               url: projects/

@@ -6,7 +6,7 @@
     <description>Recent content on Angelina Cho</description>
     <generator>Hugo -- 0.141.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Location</title>
@@ -28,6 +28,13 @@
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/project1/</guid>
       <description>This project is for OIM3640 at Babson College, taught by Professor Zhi Li.</description>
+    </item>
+    <item>
+      <title>Case Studies in Business Analytics</title>
+      <link>http://localhost:1313/courses/course1/</link>
+      <pubDate>Sat, 28 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/course1/</guid>
+      <description>The undergraduate course investigates a number of case studies in business analytics.</description>
     </item>
     <item>
       <title>Sigmund Freud and Sensibility</title>
@@ -56,13 +63,6 @@
       <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/papers/paper1/</guid>
       <description>This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013.</description>
-    </item>
-    <item>
-      <title>Lectures at the Villa of Reduced Circumstances</title>
-      <link>http://localhost:1313/courses/course1/</link>
-      <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/course1/</guid>
-      <description>This graduate course presents classical results in Romance philology.</description>
     </item>
     <item>
       <title>Portugese Irregular Verbs</title>
