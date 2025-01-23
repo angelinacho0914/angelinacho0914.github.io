@@ -3,20 +3,20 @@ title: "Case Studies in Business Analytics"
 date: 2021-08-28
 lastmod: 2025-01-22
 aliases: 
-    - /courses/course1/course_ins1.pdf
-    - /courses/course1/course_ins2.pdf
-    - /courses/course1/course_ins3.pdf
-    - /courses/course1/course_paper1.pdf
-    - /courses/course1/course_paper2.pdf
-    - /courses/course1/course_paper3.pdf
-    - /courses/course1/course1.png
-    - /courses/course1/blackfriday.csv
-    - /courses/course1/blackfriday.R
-    - /courses/course1/campus_recruitment.csv
-    - /courses/course1/campus_recruitment.R
-    - /courses/course1/fake.csv
-    - /courses/course1/true.csv
-    - /courses/course1/real_fake_news.R
+    # - /courses/course1/course_ins1.pdf
+    # - /courses/course1/course_ins2.pdf
+    # - /courses/course1/course_ins3.pdf
+    # - /courses/course1/course_paper1.pdf
+    # - /courses/course1/course_paper2.pdf
+    # - /courses/course1/course_paper3.pdf
+    # - /courses/course1/course1.png
+    # - /courses/course1/blackfriday.csv
+    # - /courses/course1/blackfriday.R
+    # - /courses/course1/campus_recruitment.csv
+    # - /courses/course1/campus_recruitment.R
+    # - /courses/course1/fake.csv
+    # - /courses/course1/true.csv
+    # - /courses/course1/real_fake_news.R
 tags: ["R","Business Analytics"]
 author: "Angelina Cho"
 description: "The undergraduate course investigates a number of case studies in business analytics." 
