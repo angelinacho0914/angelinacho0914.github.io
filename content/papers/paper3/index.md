@@ -1,18 +1,15 @@
 ---
-title: "Your Inner Hedgehog" 
+title: "Literary Analysis: The Tell Tale Heart" 
 date: 2021-04-06
-lastmod: 2024-10-18
+lastmod: 2025-01-23
 tags: ["social psychology","inner hedgehog","academia","experimental psychology","invasive thoughts"]
-author: ["Hilda Schreiber-Ziegler", "Moritz-Maria von Igelfeld"]
+author: ["Angelina Cho"]
 description: "This paper describes the inner hedgehog, a psychological condition widespread in academia. Published in the Journal of Socio-Experimental Psychology, 2021." 
 summary: "Using several case studies, this paper describes the inner hedgehog, a psychological condition widespread in academic occupations. The condition has lasting consequences and no known cure." 
 cover:
     image: "paper3.png"
     alt: "Vizualisation of an inner hedgehog"
     relative: false
-editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Socio-Experimental Psychology"
 
 ---
 
@@ -21,7 +18,6 @@ editPost:
 ##### Download
 
 + [Paper](paper3.pdf)
-+ [Raw data](https://github.com/pmichaillat/recession-indicator)
 
 ---
 
@@ -31,20 +27,15 @@ Using several case studies, this paper describes the inner hedgehog, a psycholog
 
 ---
 
+##### Figure
+
+![](paper3.png)
+
+---
+
 ##### Citation
 
 Schreiber-Ziegler, Hilda, and Moritz-Maria von Igelfeld. 2021. "Your Inner Hedgehog." *Journal of Socio-Experimental Psychology* 131 (2): 1299–1302.
-
-```BibTeX
-@article{SZI21,
-author = {Hilda Schreiber-Ziegler and Moritz-Maria von Igelfeld},
-year = {2021},
-title ={Your Inner Hedgehog},
-journal = {Journal of Socio-Experimental Psychology},
-volume = {131},
-number = {2},
-pages = {1299--1302}}
-```
 
 ---
 

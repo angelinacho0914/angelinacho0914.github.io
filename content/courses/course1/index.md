@@ -45,6 +45,8 @@ In this case, we will explore a dataset from “Campus Recruitment - Academic an
 + [Data Used](campus_recruitment.csv) - Campus_recruitment.csv
 + [Code](campus_recruitment.R) - Campus_recruitment.R
 
+---
+
 ## Paper 2: Real of Fake News
 
 The objective of this project is to predict whether or not news is fake or real based on the text characteristics/attributes in the text. This type of prediction is known in analytics as classification. There are numerous techniques and models for classification, and the project will explore some of these techniques.
@@ -57,6 +59,8 @@ The objective of this project is to predict whether or not news is fake or real 
 + [Data 2](true.csv) - True.csv
 + [Code](real_fake_news.R) - Real or Fake News.R
 
+---
+
 ## Paper 3: Black Friday
 
 A retailers' goal is to attract customers for Black Friday deals, which has become a competition among retailers to get the customers to their online platforms or physical retail stores. Data science techniques help retailers with proper insight into this goal using historical data and Association Rules. The project is divided into two main parts: exploring the Black Friday data, and using Association Rules to find possible associations between purchases. The idea is to try to get consumers who purchase one product/service (Antecedent) to also purchase another (Consequent).
@@ -67,4 +71,3 @@ A retailers' goal is to attract customers for Black Friday deals, which has beco
 + [Paper 2](course_paper3.pdf)
 + [Data Used](blackfriday.csv) - BlackFriday.csv
 + [Code](blackfriday.R) - BlackFriday.R
-

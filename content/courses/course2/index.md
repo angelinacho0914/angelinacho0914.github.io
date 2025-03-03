@@ -1,18 +1,15 @@
 ---
-title: "Profanity in Early Irish" 
-date: 1990-06-16
-lastmod: 2025-01-22
-tags: ["Irish","philology","profanity","Celtic languages","language modernization"]
-author: ["Dieter Vogelsang","Moritz-Maria von Igelfeld"]
-description: "This undergraduate course discusses profanity in Early Irish." 
-summary: "This undergraduate course discusses profanity in Early Irish, and relates such profanity to profanity in modern English." 
+title: "Business Fundamentals for Analytic Professionals" 
+date: 2024-10-10
+lastmod: 2025-03-03
+tags: ["Business Acumen","Business Analytics"]
+author: ["Angelina Cho","Thomas Park","Oshin Shakdwipee","Kojo Dokyi","Zeng Chen"]
+description: "This graduate course discusses several case studies in business decision making." 
+summary: "I took this course as a MSBA student at CMU, where I analyzed a few cases focusing on business decision making." 
 cover:
-    image: "course2.png"
-    alt: "Figure caption"
+    image: "course2.jpg"
+    alt: "Business Fundamentals for Analytic Professionals"
     relative: false
-editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Course portal"
 showToc: true
 disableAnchoredHeadings: false
 
@@ -20,98 +17,66 @@ disableAnchoredHeadings: false
 
 ## Introduction
 
-This course covers topics related to profanity in Early Irish. It relates such profanity to profanity in modern English:
+Understanding integrated business operations is critical for navigating modern markets, where functional areas must coordinate effectively to maintain customer loyalty and long-term competitiveness. Mastery of management principles and business terminology provides essential frameworks for analyzing organizational challenges and evaluating strategic alternatives.
 
-+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-+ Sed fermentum turpis nec dolor dapibus, ac commodo enim consequat. 
-+ Suspendisse potenti. Integer ac mauris nec ligula finibus ullamcorper. 
-+ Phasellus rutrum enim in nunc aliquam mollis. 
-+ Vivamus auctor nunc ac augue dapibus, in fermentum enim hendrerit. Duis et ultrices sem, eget efficitur lacus. 
+This course demonstrates how core business concepts apply across industries, including:
++ Strategic alignment: Why goal-setting and operational execution differ in entrepreneurial vs. corporate environments
++ Market awareness: How industry dynamics and global economic shifts influence decision-making
++ Stakeholder balance: The interplay between profit motives, employee needs, and societal expectations
++ Systemic thinking: Why finance, marketing, and HR strategies must interconnect to drive growth
 
-##### Introductory video
+These competencies prepared me to interpret market trends, adapt to regulatory changes, and contribute to cross-functional teams. The curriculum’s interdisciplinary approach bridges specialized academic knowledge with real-world business ecosystems, addressing skill gaps identified by employers in technical and non-technical fields alike.
 
-+ [Lecture video 0](https://youtu.be/8ihJsf-AXdA)
+## Paper 1: Iggy's Bread of the World
 
-##### Introductory readings
+In this case, we explored the responsibility of the leadership in terms of decision making.
 
-+ [Paper 1](https://pascalmichaillat.org/1.pdf)
-+ [Paper 2](https://pascalmichaillat.org/13.pdf)
+##### Materials
 
----
-
-## Part 1: Overview of Early Irish
-
-This section reviews the Early Irish language. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur.
-
-##### Lecture videos
-
-+ [Lecture video 1](https://youtu.be/X_mwtm3inEw)
-+ [Lecture video 2](https://youtu.be/cFdwOwY2l-A)
-
-##### Lecture notes
-
-+ [Lecture notes 1](notes1.pdf) – Concise overview of early Irish
-+ [Lecture notes 2](notes2.pdf) – Complete and detailed overview of early Irish
-
-##### Readings
-
-+ [Paper 3](https://pascalmichaillat.org/7.pdf)
-+ [Paper 4](https://pascalmichaillat.org/8.pdf)
++ [Instruction](course2_ins1.pdf)
++ [Paper 1](course2_paper1.pdf)
 
 ---
 
-## Part 2: Profanity in Indo-European Languages
+## Paper 2: TerraCog
 
-This section introduces profanity in Indo-European languages. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua:
+In this case, we explored the business decision that TerraCog face in order to continue their dominance in the industry.
 
-> Maecenas quis ex nec tortor pulvinar tristique. Morbi eget massa nec quam interdum posuere. Vestibulum lobortis auctor massa, sed hendrerit risus malesuada eu. Fusce nec metus ligula. Donec in mauris dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris vestibulum erat nec odio tincidunt, vitae laoreet mi tempor.
+##### Materials
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris vestibulum erat nec odio tincidunt, vitae laoreet mi tempor. Quisque id eros sit amet enim tempor pellentesque. Suspendisse tincidunt risus a vehicula tincidunt. Nullam sollicitudin libero et ex cursus ultrices. Phasellus sit amet justo vitae nulla hendrerit pretium. Aenean quis velit eu risus pharetra vestibulum. Sed nec risus dolor. Vivamus vel leo ac ante pharetra auctor. Curabitur eleifend sapien non nisl varius, in hendrerit ipsum vehicula. Sed non justo sit amet nisi pharetra fermentum.
-
-##### Lecture videos
-
-+ [Lecture video 3](https://youtu.be/GfpKnLDTwyM)
-+ [Lecture video 4](https://youtu.be/UHnSkIZcjBs)
-
-##### Compulsory readings
-
-+ [Paper 5](https://pascalmichaillat.org/10.pdf)
-+ [Paper 6](https://pascalmichaillat.org/11.pdf)
-
-##### Optional readings
-
-+ [Paper 7](https://pascalmichaillat.org/2.pdf)
-+ [Paper 8](https://pascalmichaillat.org/4.pdf)
-+ [Paper 9](https://pascalmichaillat.org/5.pdf)
-
-##### Homework
-
-+ [Problem set on profanity in Indo-European languages](problemset.pdf)
++ [Instruction](course2_ins2.pdf)
++ [Paper 2](course2_paper2.pdf)
 
 ---
 
-## Part 3: The originality of profanity in Early Irish
+## Paper 3: Black and Decker
 
-This section turns to the various elements that make profanity in Early Irish so original. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+In this case, we explored the business decision that Black and Decker face in terms of managing people.
 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+##### Materials
 
-##### Lecture videos
-
-+ [Lecture video 5](https://youtu.be/Q0y2EtgTpXM)
-+ [Lecture slides 6](https://youtu.be/0ZO87WsOYrY)
-
++ [Instruction](course2_ins3.pdf)
++ [Paper 3](course2_paper3.pdf)
 
 ---
 
-## Conclusion
+## Paper 4: Wendy's
 
-This section concludes. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+In this case, we explored the pricing decision that Wendy's face.
+
+##### Materials
+
++ [Instruction](course2_ins4.pdf)
++ [Paper 4](course2_paper4.pdf)
+
+---
+
+## Paper 5: SWOT Analysis
+
+In this case, we conducted SWOT analysis.
+
+##### Materials
+
++ [Instruction](course2_ins5.pdf)
++ [Paper 5](course2_paper5.pdf)
++ [SWOT Analysis](course2_swotanalysis.pdf)
