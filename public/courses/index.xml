@@ -6,8 +6,15 @@
     <description>Recent content in Courses on Angelina Cho</description>
     <generator>Hugo -- 0.141.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://angelinacho0914.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimization for Prescriptive Analytics</title>
+      <link>https://angelinacho0914.github.io/courses/course3/</link>
+      <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://angelinacho0914.github.io/courses/course3/</guid>
+      <description>This graduate course discusses profanity in Early Irish.</description>
+    </item>
     <item>
       <title>Business Fundamentals for Analytic Professionals</title>
       <link>https://angelinacho0914.github.io/courses/course2/</link>
@@ -27,13 +34,6 @@
       <link>https://angelinacho0914.github.io/courses/course2-copy-2/</link>
       <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
       <guid>https://angelinacho0914.github.io/courses/course2-copy-2/</guid>
-      <description>This undergraduate course discusses profanity in Early Irish.</description>
-    </item>
-    <item>
-      <title>Profanity in Early Irish</title>
-      <link>https://angelinacho0914.github.io/courses/course3/</link>
-      <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>https://angelinacho0914.github.io/courses/course3/</guid>
       <description>This undergraduate course discusses profanity in Early Irish.</description>
     </item>
   </channel>
