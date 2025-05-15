@@ -1,10 +1,10 @@
 ---
-title: "Profanity in Early Irish" 
-date: 1990-06-16
-lastmod: 2025-01-22
-tags: ["Irish","philology","profanity","Celtic languages","language modernization"]
-author: ["Dieter Vogelsang","Moritz-Maria von Igelfeld"]
-description: "This undergraduate course discusses profanity in Early Irish." 
+title: "Optimization for Prescriptive Analytics" 
+date: 2025-03-05
+lastmod: 2025-05-15
+tags: ["Optimization","Prescriptive analytics","Gurobi"]
+author: ["Angelina Cho"]
+description: "This graduate course discusses profanity in Early Irish." 
 summary: "This undergraduate course discusses profanity in Early Irish, and relates such profanity to profanity in modern English." 
 cover:
     image: "course2.png"

@@ -80,3 +80,12 @@ In this case, we conducted SWOT analysis.
 + [Instruction](course2_ins5.pdf)
 + [Paper 5](course2_paper5.pdf)
 + [SWOT Analysis](course2_swotanalysis.pdf)
+
+---
+
+## Contributors
+
++ [Kojo Dokyi](https://www.linkedin.com/in/kojo-dokyi/)
++ [Oshin Shakdwipee](https://www.linkedin.com/in/oshinshak/)
++ [Thomas Park](https://www.linkedin.com/in/thomas-park-251086258/)
++ [Zeng Chen](https://www.linkedin.com/in/zeng-chen49/)
